@@ -1,5 +1,7 @@
-import { User, Plus, GraduationCap } from "lucide-react";
+import { useState } from "react";
+import { User, Edit3, Plus, Users, GraduationCap, BookOpen } from "lucide-react";
 
+// FormMahasiswa Component
 function FormMahasiswa({ form, onChange, onSubmit, isEdit, onCancel }) {
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 mb-8 border border-gray-100">
@@ -60,5 +62,3 @@ function FormMahasiswa({ form, onChange, onSubmit, isEdit, onCancel }) {
     </div>
   );
 }
-
-export default FormMahasiswa;
